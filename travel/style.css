@@ -20,6 +20,7 @@
     line-height: 20px;
     text-align: center;
 }
+
 /* common css style */
 /* header section css */
 .nav-container{
@@ -130,8 +131,77 @@ padding-left: 16px;
 } 
 /* banner section css */
 
-/* Responsive CSS Medium devices */
+/* tours-container css */
+.tours-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.tours-area{
+    display: flex;
+    gap: 55px;
+}
+.tours-related-img{
+    width: 100%;
+    height: 100%;
+}
+ .tours-related-img img{
+    width: 540px;
+   
+} 
+.tours-related-text h2{
+    color: rgb(19, 19, 24);
+font-size: 2.5rem;
+font-weight: 800;
+line-height: 50px;
+margin-bottom: 26px;
+}
+.tours-related-text .para1{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 26px;
+}
+.tours-related-text .para2{
+    color: rgb(90, 90, 93);
+font-size: 1rem;
+font-weight: 400;
+text-align: left;
+margin-bottom: 40px;
+}
+.tours-list{
+    padding: 0 20px;
+color: rgba(19, 19, 24, 0.7);
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+margin-bottom: 24px;
+}
+.tours-list li{
+    margin-bottom: 16px;
+}
+.tours-btn{
+    color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 1.25rem;
+font-weight: 800;
+line-height: 25px;
+text-align: center;
+border-radius: 8px;
+background: rgb(255, 84, 0);
+padding: 14px 35px;
+border: none;
+}
+/* tours-container css */
 
+
+
+
+
+/* Responsive CSS Medium devices */
 @media screen and (max-width:576px){
     .nav-area, .banner-container, .banner-input, .nav-list{
       flex-direction: column;
@@ -153,5 +223,15 @@ padding-left: 16px;
   }  
   .banner-text h2 {
     font-size: 2.5rem;
+  }
+  .tours-area{
+    flex-direction: column;
+    
+  }
+  .tours-related-img img{
+    width: 100%;
+  }
+  .tours-related-text{
+    padding: 0 15px;
   }
 }
