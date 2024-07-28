@@ -543,11 +543,9 @@ margin-bottom: 2rem;
 }
 .footer-icon{
     display: flex;
-    gap: 2rem;
     justify-content: center;
-    border-bottom: 1px solid rgba(19, 19, 24, 0.1);
-    margin-left: 284px;
-    margin-right: 284px;
+    align-items: center;
+    gap: 2rem;
     padding-bottom: 49px;
 }
 .footer-icon a{
@@ -561,5 +559,9 @@ font-size: 1rem;
 font-weight: 300;
 text-align: center;
 margin-top: 50px;
+}
+.footer-area hr{
+    border: 1px solid rgba(19, 19, 24, 0.1);
+    margin: 0 284px;
 }
 /* Footer container End */
