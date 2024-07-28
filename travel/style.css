@@ -417,3 +417,90 @@ margin-top: 2rem;
 }
  
 /* Simple place container End */
+
+/* Newsletter container Start */
+.newsletter-container{
+   max-width: 1170px;
+   margin: 0 auto;
+   margin-top: 100px;
+}
+.newsletter-area{
+    display: flex;
+    gap: 1.5rem;
+}
+.newsletter-text h3{
+    color: rgb(19, 19, 24);
+font-size: 1.5rem;
+font-weight: 800;
+text-align: left;
+margin-bottom: 1rem;
+}
+.newsletter-text p{
+    color: rgb(90, 90, 93);
+font-size: 1rem;
+font-weight: 400;
+text-align: left;
+padding-bottom: 23px;
+border-bottom: 1px solid rgba(19, 19, 24, 0.1);;
+
+}
+.newsletter-text{
+    max-width: 474px;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+    padding: 33px 40px;
+}
+.newsletter-text input{
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.3);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+    padding: 16px 0 20px 16px;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+.newsletter-text button{
+    width: 100%;
+    color:var(--primary-tc);
+    background-color: var(--primary-bc);
+font-size: 1.25rem;
+font-weight: 800;
+text-align: center;
+border: none;
+padding: 14px 0;
+margin-top: 8px;
+border-radius: 8px;
+}
+.newsletter-img{
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    position: relative;
+
+}
+.save-card{
+    max-width: 335px;
+    border-radius: 16px;
+    background-color: var(--primary-bc);
+    text-align: center;
+    padding: 35px 45px;
+    position: absolute;
+    left: 327px;
+    top: 226px;
+    transform: rotate(-22.63deg);
+}
+.save-card p{
+    color: var(--primary-tc);
+font-size: 1.5rem;
+font-weight: 400;
+}
+.save-card h4{
+    color: var(--primary-tc);
+font-size: 2rem;
+font-weight: 800;
+}
+/* Newsletter container End */
