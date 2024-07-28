@@ -31,14 +31,20 @@
   .tours-related-text{
     padding: 0 15px;
   }
-  .row1{
-    grid-template-columns: repeat(1, 1fr);
-  }
+ 
   .destination-text{
     width: 100%;
   }
-   .maldives img, .indonesia img{
+  .row1, .row2, .row3{
+    grid-template-columns: repeat(1, 1fr);
+  }
+   .maldives, .indonesia{
+  width: 100%;
+   }
+   .row2-img1, .row2-img2, .row2-img3, .row3-img1, .row3-img2{
     width: 100%;
-    height: 100%;
-  } 
+   }
+   .destination-area{
+    margin: 0 10px;
+   }
 }
