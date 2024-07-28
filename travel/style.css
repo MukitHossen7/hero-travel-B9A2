@@ -24,7 +24,15 @@
     line-height: 20px;
     text-align: center;
 }
-
+.header-seciton{
+    padding: 0 18px;
+}
+.main-section{
+    padding: 0 18px;
+}
+.footer-container{
+    padding: 0 18px;
+}
 /* common css style */
 /* header section css */
 .nav-container{
