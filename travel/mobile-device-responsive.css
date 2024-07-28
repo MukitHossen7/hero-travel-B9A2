@@ -41,10 +41,51 @@
    .maldives, .indonesia{
   width: 100%;
    }
+   .maldives span{
+    left: 35%;
+    top: 45%;
+   }
+   .indonesia span{
+    left: 33%;
+    top: 45%;
+   }
    .row2-img1, .row2-img2, .row2-img3, .row3-img1, .row3-img2{
     width: 100%;
    }
-   .destination-area{
-    margin: 0 10px;
+   .row2-img1 span{
+    left: 33%;
+    bottom: 45%;
    }
+   .row2-img2 span{
+    left: 23%;
+    bottom: 45%;
+   }
+   .row2-img3 span{
+    left: 33%;
+    bottom: 45%;
+   }
+   .row3-img1 span, .row3-img2 span{
+    left: 29%;
+    top: 45%;
+   }
+   .simple-place-area{
+    flex-direction: column;
+   }
+   .simple-img-area img{
+    width: 100%;
+   }
+   .simple-img-area span{
+    top: 45%;
+    left: 18%;
+   }
+   .simple-img-area span{
+    font-size: 1rem;
+   }
+   .simple-place-container, .destination-container, .tours-container{
+    margin-top: 42px;
+   }
+   .simple-place-container h2, .destination-text h2, .tours-related-text h2{
+    font-size: 1.7rem;
+   }
+   
 }
