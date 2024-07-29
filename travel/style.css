@@ -24,14 +24,11 @@
     line-height: 20px;
     text-align: center;
 }
-.header-seciton{
+.header-seciton, .main-section, .footer-container{
     padding: 0 18px;
 }
-.main-section{
-    padding: 0 18px;
-}
-.footer-container{
-    padding: 0 18px;
+#baricon{
+    display: none;
 }
 /* common css style */
 /* header section css */

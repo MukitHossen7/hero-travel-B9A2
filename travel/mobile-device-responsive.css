@@ -1,9 +1,24 @@
 @media screen and (max-width:576px){
-    .nav-area, .banner-container, .banner-input, .nav-list{
+    .banner-container, .banner-input, .nav-list{
       flex-direction: column;
     }
     .nav-list{
      margin-top: 20px;
+    }
+    .nav-list li{
+      display: none;
+    }
+    #baricon{
+      font-size: 25px;
+      display: block;
+      margin-bottom: 13px;
+    }
+    .nav-area{
+      align-items: center;
+      justify-items: center;
+    }
+    .nav-title h3{
+      font-size: 1.8rem;
     }
   .banner-input{
     width: 100%;
